@@ -1,12 +1,19 @@
 ✅  PassGen
-✅      List of Letters
-✅      List of Numbers
-✅      List of Signs
-✅      List Randomizer 
-✅      1-8 Pick
-✅      v+
+✅    V1
+✅        List of Letters
+✅        List of Numbers
+✅        List of Signs
+✅        List Randomizer 
+✅        1-8 Pick
+✅        v+
+✅    V2
+✅        VCount
+✅        If VCount < 8
+✅        vv = ?
+✅        vc = ?
+✅        vpass = + vc
 ✅  What's the password for?
 ✅      Input
-    Output
-        If Input isn't empty
+    Output (Needs a better format)
+✅        If Input isn't empty
 Database lookup
