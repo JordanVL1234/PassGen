@@ -14,13 +14,17 @@ while vnum < 8:
         vv = random.choice(vbc)
         vc = random.choice(vv)
         vbpass.append(vc)
-        vnum = vnum+1
+        vnum += 1
 
 vapass = ''.join(map(str, vbpass))
+
+pwfData = {}
+pwfData[vuse] = vapass
+#pwfOut2 = [Password] = "vapass"
 
 if vuse == "":
         print("Your password is -", vapass)
 else:
-        with open("Passwords.json", "a") as f:
-                f.write(json.dumps("{} - {}".format(vuse, vapass)))
+        with open("Passwords.json", "a") as pwfa:
+                pwfa.write(json.dumps(pwfData))
         print("Your password for", vuse, "is -", vapass)
