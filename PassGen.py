@@ -20,7 +20,6 @@ vapass = ''.join(map(str, vbpass))
 
 pwfData = {}
 pwfData[vuse] = vapass
-#pwfOut2 = [Password] = "vapass"
 
 if vuse == "":
         print("Your password is -", vapass)
